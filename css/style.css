@@ -1,0 +1,198 @@
+body{
+margin:0;padding:0;
+font-family:Calibri;
+}
+#brand
+{
+	padding-left:20%;
+	padding-bottom:1.5%;
+}
+#brand img
+{
+	 width:10%;
+}
+.container{
+margin-left: auto; 
+margin-right:auto;
+width:75%;
+}
+.container2{
+margin-left: auto;
+margin-right:auto;
+width:55%;
+}
+.sub_container{
+margin-top:7%;
+margin-bottom:7%;
+}
+
+.nav1{
+
+    margin-left: auto;
+    margin-right: auto;
+	width:100%;
+}
+.nav1 li{
+
+	list-style-type: none;
+}
+.nav2{
+
+	float:left;
+	padding:7px;
+}
+.nav2 li{
+	list-style-type: none;
+}
+a
+{
+color:black;
+}
+.nav1 a
+{
+display: inline;
+text-decoration:none;
+padding-right:6%;
+padding-top:1%;
+padding-bottom:1%;
+}
+.nav2 a
+{
+display:block;
+text-decoration:none;
+color:black;
+padding-bottom:3px;
+}
+.top{
+position:absolute;
+top:10px;
+left:2%;
+}
+a:link
+{
+	text-decoration:none;
+	color: black;
+}
+a:hover
+{
+	text-decoration:underline;
+}
+header{
+border-bottom:thin solid green;
+}
+
+.newsfeed{
+
+width: 60%;
+margin:0 auto; 
+padding-left:5%;
+display: inline-block;
+
+}
+
+.newsfeed2{
+
+width: 55%;
+margin:0 auto;
+padding-left:5%;
+display: inline-block;
+
+}
+.news
+{
+margin-bottom:10%;
+}
+
+.newsimage
+{
+width:100%;
+}
+.small_newsimage
+{
+width:30%;
+}
+.text
+{
+float:right;
+	width: 60%;
+}
+
+
+footer{
+clear:both;
+text-align:center;
+}
+
+.right_panel{
+float:right;
+width:20%;
+display: inline-block;
+}
+
+.links
+{
+margin:0px;
+}
+.links li
+{
+list-style-type:none;
+padding-bottom:7px;
+}
+
+#weekly_image
+{
+	padding-top: 8%;
+}
+#weekly_image img
+{
+width: 100%;}
+p
+{
+margin:7px;
+}
+.small
+{
+	font-size: 10px;
+}
+/* Lisatud reeglid */
+.nav1 ul, .nav2 ul, .links {
+margin: 0; /* ul elemendil on tavalises olekus margin, mis tuleks menüü puhul ära nullida. */
+padding: 0; /* ul elemendil on tavalises olekus padding, mis tuleks menüü puhul ära nullida. */
+list-style: none; /* Kuna navigatsioonimenüü puhul ei soovi me loetelus näidata loetelu elementide ees täppe, siis kustutame need selle reegli abil ära. */
+}
+.nav1 ul li {
+	min-width: 130px; /* Ma ei saanud päris täpselt aru, kuid mingi reegel seadis siinkohal list-item elementidele piirandud. Et menüü oleks enamvähem sama lai, siis pidin siia lisama minimaalse laiuse.*/
+	display: inline-block; /* Tavalises olekus on loetelu elemendid "list-item" tüüpi ning paiknevad üksteise all. Selle reegliga paigutame nad üksteise kõrgale. */
+}
+/* Lisatud reeglite lõpp*/
+
+#table_div
+{
+width: 50%;
+margin:0 auto; 
+padding-left:5%;
+display: inline-block;
+}
+
+#table_div table
+{
+border: thin solid green;
+padding:2%;
+border-collapse:collapse;
+font-size:1em;
+}
+#table_div tbody
+{
+background-color:#FDF7B8;
+}
+#table_div thead
+{
+background-color:#FFCD72;
+border-bottom:thin solid green;
+}
+
+#table_div td
+{
+
+padding:5px;
+}

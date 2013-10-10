@@ -1,0 +1,78 @@
+<!-- Kõik elemendid olid natuke kehvasti taandatud. Iga element, mis asub teise sees võiks olla ühe astme võtta rohkem taandatud. Samal tasemel elemendid võiksid aga paikneva "puus" üksteise all -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loodussõprade leht</title>
+	<meta charset="UTF-8">
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
+	<!-- Seoses CSS failide eraldi kataloogi liigutamisega, pidi siia ette lisama kataloogi nime. Samuti soovitan pildid paigutada eraldi kataloogi, näiteks "img" või "images" (tegin juba ära). -->
+
+	<!-- <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"  rel="stylesheet" type="text/css" >
+	-->
+</head>
+<body>
+<header>
+	<a href="avaleht.html"><div id="brand">
+		<h2 class="top">Loodushuviliste avastusportaal</h2>
+		<img src="../img/banner.jpg">
+	</div></a>
+</header>
+
+<div class="container">
+	<nav class="nav1">
+		<!-- Kuna menüüde puhul on tegemist linkide loeteluga, on viisakas paigutada menüü ul ja li elementide sisse. -->
+		<ul>
+			<li><a href="news_list.html">Uudised</a></li>
+			<li><a href="#">Galerii</a></li>
+			<li><a href="#">Foorum</a></li>
+			<li><a href="#">E-pood</a></li>
+			<li><a href="#">Minust</a></li>
+		</ul>
+	</nav>
+	<div class="sub_container">
+		<nav class="nav2">
+			<!-- Kuna menüüde puhul on tegemist linkide loeteluga, on viisakas paigutada menüü ul ja li elementide sisse. -->
+			<ul>
+				<li><a href="news_list.html">Uudised</a></li>
+				<li><a href="#">Galerii</a></li>
+				<li><a href="#">Foorum</a></li>
+				<li><a href="#">E-pood</a></li>
+				<li><a href="#">Minust</a></li>
+			</ul>
+		</nav>
+
+		<a href="view.html">
+			<div class="newsfeed">
+			<img src="img/image2.jpg" class="newsimage">
+			<!-- Tõstsin pildid eraldi kataloogi ning seetõttu peab nende asukohaviitele lisama kataloogi (img/) -->
+			<p><strong>Muuseumi ekspositsioon on suletud uuendamiseks. Avame uuenenud ekspositsiooni 2014. aasta kevadel.</strong>
+			</p>
+
+			<p>Uuendamise ajal jätkab muuseumi näituste ja loodushariduse osakond õpetajatele, üpilastele ja loodushuvilistele
+				suunatud haridustegevust.</p>
+		</div></a>
+
+		<div class="right_panel">
+			<ul class="links">
+				<li><a href="#"> Ülikooli loodusmuuseum ootab seenenäitusele</a></li>
+				<li><a href="#"> Eesti geoloogiliste vaatamisväärsuste koolitused õpetajatele ja õpilastele 2013. aasta sügisel</a></li>
+				<li> <a href="#"> Seminar "Toit, tervis ja keskkond - õppevahendid koolidele" 13. septembril Pärnus</a></li>
+				<li><a href="#" > Tartu Ülikooli loodusmuuseumi kogud AHHAAs</a></li>
+				<li> <a href="#"> Telli loodusmuuseumi uudiskiri</a></li>
+				<li><a href="#" >Tartu Ülikooli loodusmuuseum Facebookis!</a></li>
+			</ul>
+			<div id="weekly_image">
+				<p>Nädala pilt</p>
+				<img src="../img/foto.jpg">
+			</div>
+		</div>
+	</div>
+
+</div>
+<footer>
+	<p>
+		<small>Copyright kaia Konsap</small>
+	</p>
+</footer>
+</body>
+</html>
