@@ -25,10 +25,12 @@
 		<!-- Kuna menüüde puhul on tegemist linkide loeteluga, on viisakas paigutada menüü ul ja li elementide sisse. -->
 		<ul>
 			<li><a href="news_view.php">Uudised</a></li>
+			<li><a href="table.php">E-pood</a></li>
+			<li><a href="forum_index.php">Foorum</a></li>
 			<li><a href="#">Live video</a></li>
 			<li><a href="#">Galerii</a></li>
-			<li><a href="forum_index.php">Foorum</a></li>
 			<li><a href="#">Teadustöö</a></li>
+
 		</ul>
 	</nav>
 	<div class="sub_container">
