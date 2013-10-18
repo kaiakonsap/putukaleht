@@ -2,6 +2,8 @@
 <?php include ("header.php");?>
 <?php $data=mysql_query("SELECT *,quantity*price_per_unit as endprice FROM the_table")or die (mysql_error())?>
 		<div id="table_div">
+			<a href="tabelloodusleht-edit.php"><button>Muuda tabelit</button></a>
+			<input id="my_input">
 			<table>
 				<thead>
 				<tr>
@@ -29,7 +31,6 @@
 				</tbody>
 
 			</table>
-			<a href="tabelloodusleht-edit.php"><button>Muuda tabelit</button></a>
 		</div>
 
 <?php include("right_panel.php")?>

@@ -3,6 +3,8 @@
 <?php $data=mysql_query("SELECT *,quantity*price_per_unit as endprice FROM the_table")or die (mysql_error())?>
 
 		<div id="table_div">
+			<a href="table.php"><button>Mine tagasi tavavaatesse</button></a>
+
 			<form name="input" action="insert-table-data.php" method="POST">
 				<label for="name">Nimetus</label><input type="text" placeholder="Nimetus" name="name">
 				<input type="text" placeholder="Kogus" name="quantity">
@@ -10,6 +12,7 @@
 				<input type="text" placeholder="Kohaletoimetamisaeg: " name="due_time">
 				<input type="submit" value="Sisesta">
 			</form>
+			<form name="input" action="tabel-delete.php" method="POST">
 			<table>
 				<thead>
 				<tr>
@@ -19,6 +22,7 @@
 					<th>Ühiku hind</th>
 					<th>Summa terve koguse tellimisel</th>
 					<th>Kauba saamine</th>
+					<th>Kustutamine</th>
 				</tr>
 				</thead>
 				<tbody>
@@ -31,12 +35,15 @@
 					<td><?php echo $news_row["price_per_unit"]?> kr</td>
 					<td><?php echo $news_row["endprice"] ?>kr</td>
 					<td>Koju toimetatakse <?php echo $news_row["due_time"]?> päevaga</td>
+					<td><input type="submit" value="<?php echo $news_row["id"]?>" name="deleteItem"></td>
 					</tr>
 	<?php endwhile?>
 
 				</tbody>
 
 			</table>
+
+			</form>
 		</div>
 
 
